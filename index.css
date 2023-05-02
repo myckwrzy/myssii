@@ -1,0 +1,21 @@
+.container
+{
+    background-color: #A7C7E7;
+    padding: 20px;
+    width: 230px;
+    color:#191970;
+    margin:auto;
+    text-align: center;
+    margin-top: 120px;
+}
+a
+{
+    text-decoration: none;
+    color: #191970;
+    font-weight: bold;
+    
+}
+a:hover
+{
+    background-color: #6F8FAF;
+}

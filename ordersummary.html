@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Summary</title>
+    <script type="text/javascript" src="ordersummary.js"></script>
+</head>
+<body>
+
+    </script>
+    <fieldset style="border: 1px solid black; width: 280px;;">
+
+        <p>Basketball Products: 
+        <input type="text" value="0" size="5" id="number">
+        <button id="increment" onclick="increment()">+</button>
+        <button id="decrement" onclick="decrement()">-</button></p>
+
+        <p>Shipping and Handling Fee: 
+        <input type="text" value="4.98" size="2" id="shipping" ></p>
+    </fieldset>
+
+    <h3>Order Summary</h3>
+    <table style=" width: 300px; ">
+
+        <tr>
+            <td>Items ( <span id="numberDisplay"></span>):</td>
+            <td> <span id="cost">$0.0</span> </td>
+        </tr>
+        <tr>
+            <td>Shipping and Handling fee:</td>
+            <td> <span id="shipcost">$0.0</span> </td>
+        </tr>
+        <tr>
+            <td colspan="2"> <hr style="width:60px; margin-right: 10px; opacity: 60%;"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+
+        <tr>
+            <td>Total before tax: </td>
+            <td> <span id="sub-total">$0.0</span> </td>
+        </tr>
+        <tr>
+            <td>Estimated tax (10%):</td>
+            <td> <span id="tax">$0.0</span> </td>
+        </tr>
+        <tr>
+            <td colspan="2"> <hr style=" opacity: 60%;"></td>
+        </tr>
+        <tr style="color: red;">
+            <td >Order Total:</td>
+            <td> <span id="order-total">$0.0</span> </td>
+        </tr>
+
+
+    </table>
+
+    <br>
+    <br>
+    <a href="index.html">back</a>
+
+
+</body>
+</html>
